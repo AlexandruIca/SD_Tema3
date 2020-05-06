@@ -6,3 +6,6 @@ copy_file(algsort.in QuickSort)
 
 build_test(Inv ${CMAKE_CURRENT_SOURCE_DIR}/inv.cpp)
 copy_file(inv.in Inv)
+
+build_test(BinarySearch ${CMAKE_CURRENT_SOURCE_DIR}/cautare_binara.cpp)
+copy_file(cautbin.in BinarySearch)
