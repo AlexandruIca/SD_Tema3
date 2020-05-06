@@ -3,3 +3,6 @@ copy_file(radixsort.in RadixSort)
 
 build_test(QuickSort ${CMAKE_CURRENT_SOURCE_DIR}/sortare_comparare.cpp)
 copy_file(algsort.in QuickSort)
+
+build_test(Inv ${CMAKE_CURRENT_SOURCE_DIR}/inv.cpp)
+copy_file(inv.in Inv)
