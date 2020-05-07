@@ -9,3 +9,6 @@ copy_file(inv.in Inv)
 
 build_test(BinarySearch ${CMAKE_CURRENT_SOURCE_DIR}/cautare_binara.cpp)
 copy_file(cautbin.in BinarySearch)
+
+build_test(Factorial ${CMAKE_CURRENT_SOURCE_DIR}/factorial.cpp)
+copy_file(fact.in Factorial)
