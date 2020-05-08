@@ -15,3 +15,6 @@ copy_file(fact.in Factorial)
 
 build_test(NrTri ${CMAKE_CURRENT_SOURCE_DIR}/numarare_triunghiuri.cpp)
 copy_file(nrtri.in NrTri)
+
+build_test(SDO ${CMAKE_CURRENT_SOURCE_DIR}/quickselect.cpp)
+copy_file(sdo.in SDO)
