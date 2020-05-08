@@ -50,10 +50,10 @@ auto run_queries(std::ifstream& f, std::vector<int> const& v) -> void
             }
 
             if(action == 0 && v[j] != num) {
-                g << "-1" << std::endl;
+                g << "-1\n";
             }
             else {
-                g << j << std::endl;
+                g << j << '\n';
             }
 
             break;
@@ -66,7 +66,7 @@ auto run_queries(std::ifstream& f, std::vector<int> const& v) -> void
                 }
             }
 
-            g << j << std::endl;
+            g << j << '\n';
 
             break;
         }
