@@ -12,3 +12,6 @@ copy_file(cautbin.in BinarySearch)
 
 build_test(Factorial ${CMAKE_CURRENT_SOURCE_DIR}/factorial.cpp)
 copy_file(fact.in Factorial)
+
+build_test(NrTri ${CMAKE_CURRENT_SOURCE_DIR}/numarare_triunghiuri.cpp)
+copy_file(nrtri.in NrTri)
