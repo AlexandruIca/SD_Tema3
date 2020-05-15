@@ -18,3 +18,6 @@ copy_file(nrtri.in NrTri)
 
 build_test(SDO ${CMAKE_CURRENT_SOURCE_DIR}/quickselect.cpp)
 copy_file(sdo.in SDO)
+
+build_test(Binar ${CMAKE_CURRENT_SOURCE_DIR}/binar.cpp)
+copy_file(binar.in Binar)
