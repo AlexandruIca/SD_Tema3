@@ -7,5 +7,8 @@
 #build_test(Proc2 ${CMAKE_CURRENT_SOURCE_DIR}/proc2.cpp)
 #copy_file(proc2.in Proc2)
 
-build_test(Heapuri ${CMAKE_CURRENT_SOURCE_DIR}/heapuri.cpp)
-copy_file(heapuri.in Heapuri)
+#build_test(Heapuri ${CMAKE_CURRENT_SOURCE_DIR}/heapuri.cpp)
+#copy_file(heapuri.in Heapuri)
+
+build_test(Timbre ${CMAKE_CURRENT_SOURCE_DIR}/timbre.cpp)
+copy_file(timbre.in Timbre)
