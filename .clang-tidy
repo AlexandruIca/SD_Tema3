@@ -1,5 +1,5 @@
 ---
-Checks: '*,-fuchsia-*,-google-*,-zircon-*,-abseil-*,-llvm-*,-readability-named-parameter,-cppcoreguidelines-pro-bounds-constant-array-index,-hicpp-signed-bitwise,-cppcoreguidelines-avoid-magic-numbers,-readability-magic-numbers,-misc-non-private-member-variables-in-classes'
+Checks: '*,-fuchsia-*,-google-*,-zircon-*,-abseil-*,-llvm-*,-readability-named-parameter,-cppcoreguidelines-pro-bounds-constant-array-index,-hicpp-signed-bitwise,-cppcoreguidelines-avoid-magic-numbers,-readability-magic-numbers,-misc-non-private-member-variables-in-classes,-cert-err58-cpp'
 WarningsAsErrors: '1'
 HeaderFilterRegex: ''
 FormatStyle: none
