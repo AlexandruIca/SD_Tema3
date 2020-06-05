@@ -15,4 +15,5 @@ endmacro()
 
 #add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Sortari_Cautare_SDO/)
 #add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Liste_Stive_Cozi_Hashuri/)
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Heapuri_BSTrees/)
+#add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Heapuri_BSTrees/)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Diverse/)
